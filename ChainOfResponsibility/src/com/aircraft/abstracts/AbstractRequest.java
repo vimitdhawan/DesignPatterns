@@ -1,4 +1,4 @@
-package com.aircraft.handler;
+package com.aircraft.abstracts;
 
 abstract public class AbstractRequest {
 

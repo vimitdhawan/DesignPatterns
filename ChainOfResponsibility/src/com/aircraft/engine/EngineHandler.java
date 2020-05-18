@@ -1,21 +1,23 @@
-package com.aircraft.fire;
+package com.aircraft.engine;
 
 import com.aircraft.abstracts.AbstractHandler;
 import com.aircraft.abstracts.AbstractRequest;
 
-public class FireHandler extends AbstractHandler {
+public class EngineHandler extends AbstractHandler {
 
-    FireHandler(AbstractHandler next) {
+    public EngineHandler(AbstractHandler next) {
         super(next);
     }
 
 
     @Override
     public void takeAction(AbstractRequest abstractRequest){
-        if(abstractRequest.getRequestCode()==1){
-                System.out.println("Fire Action");
+        if(abstractRequest.getRequestCode()==2){
+                System.out.println("Engine Action");
         } else {
+            System.out.println("Its not Engine Action");
             super.takeAction(abstractRequest);
+
         }
     }
 

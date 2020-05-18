@@ -1,4 +1,11 @@
 package com.aircraft.fire;
 
-public class FireRequest {
+import com.aircraft.abstracts.AbstractRequest;
+
+public class FireRequest extends AbstractRequest {
+    private static int code =1;
+
+    public FireRequest() {
+        super(code);
+    }
 }

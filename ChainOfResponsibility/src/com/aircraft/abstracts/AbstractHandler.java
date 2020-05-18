@@ -1,16 +1,16 @@
 package com.aircraft.abstracts;
 
-abstract public class AbstracctHandler {
+abstract public class AbstractHandler {
 
-    private AbstracctHandler next;
+    private AbstractHandler next;
 
-    AbstracctHandler(AbstracctHandler next){
+    public AbstractHandler(AbstractHandler next){
         this.next = next;
     }
 
-    public void takeAction(AbstracctHandler abstractHandler){
-        if(abstractHandler != null){
-            abstractHandler.takeAction(abstractHandler.next);
+    public void takeAction(AbstractRequest abstractRequest){
+        if(next != null){
+            next.takeAction(abstractRequest);
         }
 
     }
