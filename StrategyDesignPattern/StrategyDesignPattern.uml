@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="509.3125" y="349.0">com.duck.app.types.RubberDuck</node>
+    <node x="432.5" y="0.0">com.duck.app.quack.behaviour.QuackBehaviour</node>
+    <node x="751.0" y="189.5">com.duck.app.quack.behaviour.SqueakSound</node>
+    <node x="162.0" y="189.5">com.duck.app.quack.behaviour.QuackSound</node>
+    <node x="310.0" y="134.0">com.duck.app.types.Duck</node>
+    <node x="565.0" y="189.5">com.duck.app.flying.behaviour.FlyWithoutWings</node>
+    <node x="270.5" y="0.0">com.duck.app.flying.behaviour.FlyBehaviour</node>
+    <node x="204.1875" y="349.0">com.duck.app.types.RedHeadDuck</node>
+    <node x="0.0" y="189.5">com.duck.app.flying.behaviour.FlyWithWings</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.duck.app.types.RedHeadDuck" target="com.duck.app.types.Duck">
+      <point x="57.375" y="-38.5" />
+      <point x="338.0625" y="329.0" />
+      <point x="398.125" y="329.0" />
+      <point x="-29.375" y="82.5" />
+    </edge>
+    <edge source="com.duck.app.types.Duck" target="com.duck.app.flying.behaviour.FlyBehaviour">
+      <point x="-88.125" y="-82.5" />
+      <point x="339.375" y="94.0" />
+      <point x="323.75" y="94.0" />
+      <point x="-17.75" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.types.RedHeadDuck" target="com.duck.app.flying.behaviour.FlyWithWings">
+      <point x="-57.375" y="-38.5" />
+      <point x="223.3125" y="329.0" />
+      <point x="71.0" y="329.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.flying.behaviour.FlyWithoutWings" target="com.duck.app.flying.behaviour.FlyBehaviour">
+      <point x="0.0" y="-27.0" />
+      <point x="648.0" y="84.0" />
+      <point x="394.75" y="84.0" />
+      <point x="53.25" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.types.RubberDuck" target="com.duck.app.flying.behaviour.FlyWithoutWings">
+      <point x="17.625" y="-38.5" />
+      <point x="597.4375" y="319.0" />
+      <point x="648.0" y="319.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.quack.behaviour.QuackSound" target="com.duck.app.quack.behaviour.QuackBehaviour">
+      <point x="0.0" y="-27.0" />
+      <point x="226.0" y="104.0" />
+      <point x="452.25" y="104.0" />
+      <point x="-59.25" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.types.RubberDuck" target="com.duck.app.types.Duck">
+      <point x="-52.875" y="-38.5" />
+      <point x="526.9375" y="329.0" />
+      <point x="456.875" y="329.0" />
+      <point x="29.375" y="82.5" />
+    </edge>
+    <edge source="com.duck.app.types.RubberDuck" target="com.duck.app.quack.behaviour.SqueakSound">
+      <point x="52.875" y="-38.5" />
+      <point x="632.6875" y="329.0" />
+      <point x="818.0" y="329.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.quack.behaviour.SqueakSound" target="com.duck.app.quack.behaviour.QuackBehaviour">
+      <point x="0.0" y="-27.0" />
+      <point x="818.0" y="74.0" />
+      <point x="570.75" y="74.0" />
+      <point x="59.25" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.types.Duck" target="com.duck.app.quack.behaviour.QuackBehaviour">
+      <point x="29.375" y="-82.5" />
+      <point x="456.875" y="114.0" />
+      <point x="491.75" y="114.0" />
+      <point x="-19.75" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.types.RedHeadDuck" target="com.duck.app.quack.behaviour.QuackSound">
+      <point x="-19.125" y="-38.5" />
+      <point x="261.5625" y="319.0" />
+      <point x="226.0" y="319.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.duck.app.flying.behaviour.FlyWithWings" target="com.duck.app.flying.behaviour.FlyBehaviour">
+      <point x="0.0" y="-27.0" />
+      <point x="71.0" y="94.0" />
+      <point x="288.25" y="94.0" />
+      <point x="-53.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="348.0" y="230.0" />
+  <SelectedNodes>
+    <node>com.duck.app.types.RedHeadDuck</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
