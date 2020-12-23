@@ -3,35 +3,37 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="354.0" y="126.0">com.adapter.app.adaptee.turkey.WildTurkey</node>
-    <node x="175.0" y="171.0">com.adapter.app.duckapp.MallardDuck</node>
-    <node x="354.0" y="0.0">com.adapter.app.adaptee.turkey.Turkey</node>
-    <node x="95.75" y="0.0">com.adapter.app.duckapp.Duck</node>
-    <node x="0.0" y="148.0">com.adapter.app.adapter.Adapter</node>
+    <node x="329.0" y="182.0">com.adapter.app.adaptee.turkey.WildTurkey</node>
+    <node x="0.0" y="171.0">com.adapter.app.duckapp.MallardDuck</node>
+    <node x="216.16666666666669" y="11.0">com.adapter.app.adaptee.turkey.Turkey</node>
+    <node x="35.0" y="0.0">com.adapter.app.duckapp.Duck</node>
+    <node x="154.0" y="148.0">com.adapter.app.adapter.Adapter</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.adapter.app.adapter.Adapter" target="com.adapter.app.duckapp.Duck">
-      <point x="0.0" y="-72.0" />
-      <point x="77.5" y="123.0" />
-      <point x="127.75" y="123.0" />
-      <point x="-32.0" y="49.0" />
+      <point x="-51.66666666666666" y="-72.0" />
+      <point x="179.83333333333334" y="123.0" />
+      <point x="131.0" y="123.0" />
+      <point x="32.0" y="49.0" />
+    </edge>
+    <edge source="com.adapter.app.adapter.Adapter" target="com.adapter.app.adaptee.turkey.Turkey">
+      <point x="51.666666666666686" y="-72.0" />
+      <point x="0.0" y="38.0" />
     </edge>
     <edge source="com.adapter.app.duckapp.MallardDuck" target="com.adapter.app.duckapp.Duck">
       <point x="0.0" y="-49.0" />
-      <point x="242.0" y="123.0" />
-      <point x="191.75" y="123.0" />
-      <point x="32.0" y="49.0" />
+      <point x="-32.0" y="49.0" />
     </edge>
     <edge source="com.adapter.app.adaptee.turkey.WildTurkey" target="com.adapter.app.adaptee.turkey.Turkey">
       <point x="0.0" y="-38.0" />
-      <point x="0.0" y="38.0" />
+      <point x="396.0" y="123.0" />
+      <point x="327.83333333333337" y="123.0" />
+      <point x="44.66666666666666" y="38.0" />
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="348.0" y="144.0" />
-  <SelectedNodes>
-    <node>com.adapter.app.adapter.Adapter</node>
-  </SelectedNodes>
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
